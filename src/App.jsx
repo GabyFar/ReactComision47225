@@ -1,3 +1,4 @@
+import { Home } from "./Home";
 import { Navbar } from "./Navbar";
 
 function App() {
@@ -12,18 +13,20 @@ function App() {
 
     
 
-  return (
+return (
+
     <div>
       
 
 
-    <navbar />
+      <navbar />
 
-      <h1 style = {{ color: "red", fontSize: "2rem" }} >{nombre}</h1>
-      <button conClick={sumar}>sumar</button>
+      <home />
+
+      <footer />
+
     </div>
-  );
+);
+}
 
-  }
-
-  export default App;
+export default App;

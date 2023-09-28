@@ -1,17 +1,15 @@
-
+import "./Navbar.css"
 export const Navbar = ()=>{
-        return <nav>
-            <ul>
+        return      
+                    <nav claasName="Navbar">
+                                <ul>
 
-<li>productos</li>
-<li>contacto</li>
-<li>inicio</li>
+                        <li>productos</li>
+                        <li>contacto</li>
+                        <li>inicio</li>
 
-            </ul>
+                                </ul>
 
-
-
-
-        </nav>
+                    </nav>
 
 }
