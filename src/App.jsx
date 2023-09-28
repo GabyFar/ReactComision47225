@@ -5,7 +5,7 @@ import { Navbar } from "./layouts/navbar/Navbar";
 
 function App(){
 
-    let nombre = "pepito";
+    let saludo = "bienvenido a tienda de figuras";
 
 console.log("estoy sumar");
     };
@@ -27,7 +27,7 @@ return (
 
       <Login />
 
-      <ItemListContainer />
+      <ItemListContainer saludo={saludo} edad={12} />
 
       <footer />
 

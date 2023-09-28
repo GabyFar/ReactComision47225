@@ -1,17 +1,10 @@
-import styles from "./Home.modules.css"
+import styles from "./Home.modules.css";
 
 export const Home = () => {
-return (
-
+  return (
     <div>
-        <h1 style = {{ color: "red", fontSize: "2rem" }} >{pepito}</h1>
-    <h2 className={styles.title}>este es el titulo de Home</h2>
-
-
+      <h1 style={{ color: "red", fontSize: "2rem" }}>{tiendaDeFiguras}</h1>
+      <h2 className={styles.title}>este es el titulo de Home</h2>
     </div>
-
-
-)
-
-
-}
+  );
+};
