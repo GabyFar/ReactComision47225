@@ -3,37 +3,24 @@ import { ItemListContainer } from "./components/pages/itemListContainer/ItemList
 import { Login } from "./components/pages/login/Login";
 import { Navbar } from "./layouts/navbar/Navbar";
 
-function App(){
+function App() {
+  let saludo = "bienvenido a tienda de figuras";
 
-    let saludo = "bienvenido a tienda de figuras";
+  console.log("estoy sumar");
 
-console.log("estoy sumar");
-    };
-
-//    let estilos = {
-//color: "red"
-
-    
-
-return (
-
+  return (
     <div>
-      
+      <Navbaravbar />
 
-
-      <navbar />
-
-      <home />
+      <Home />
 
       <Login />
 
       <ItemListContainer saludo={saludo} edad={12} />
 
-      <footer />
-
-
+      <Footer />
     </div>
-);
+  );
 }
 
 export default App;
